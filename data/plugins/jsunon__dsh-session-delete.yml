@@ -1,0 +1,6 @@
+url: https://github.com/jsunon/dsh-session-delete
+name: jsunon/dsh-session-delete
+category: session
+description:
+  en: 'Adds a "Delete session" action to the Web sidebar session menu: after a confirmation dialog it stops the running turn, flushes and detaches the session, deletes its log directory and projection-cache file, then detaches it from every workspace ledger while clearing archive and pin records; a session still in use returns 409, and a failed disk cleanup leaves the ledger intact for retry.'
+  zh: 在 Web 侧栏会话菜单加入「删除会话」：确认后先停掉当前回合、落盘并摘除会话，删除其日志目录与投影缓存文件，再从各工作区账本中解除关联并清除归档与置顶记录；会话仍被占用时返回 409，磁盘删除失败则保留账本以便重试。
